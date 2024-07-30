@@ -14,7 +14,7 @@ This project is a full-stack AI text summarizer application built using Replit, 
       Clone this repository.
       Install dependencies using npm install.
       Run the app locally with npm start.
-**_Important_**
+## _Important_
       To ensure the Hugging Face AI token is active and correctly implemented in the project, follow these steps:
       1. Activate Your Hugging Face API Token:
             Log in to your Hugging Face account.
@@ -25,7 +25,7 @@ This project is a full-stack AI text summarizer application built using Replit, 
       3. Replace <YOUR AI TOKEN>:
           Copy your active Hugging Face API token.
           Paste it in place of <YOUR AI TOKEN> in the Authorization header.
-      ## Summarize.js
+## Summarize.js
           let _config_ = {
               ......
               _headers:_ { 
