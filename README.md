@@ -26,11 +26,11 @@ This project is a full-stack AI text summarizer application built using Replit, 
           Copy your active Hugging Face API token.
           Paste it in place of <YOUR AI TOKEN> in the Authorization header.
 ## Summarize.js
-          let _config_ = {
+          let config = {
               ......
-              _headers:_ { 
+              headers: { 
                 ......
-                _'Authorization':_ 'Bearer ' + **[Your AI Token]**
+                'Authorization': 'Bearer ' + **[Your AI Token]**
               },
               .....
             };
