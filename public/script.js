@@ -35,9 +35,6 @@ function submitData(e) {
   const text_to_summarize = textArea.value;
 
   const myHeaders = new Headers();
-  myHeaders.append("Content-Type", "application/json");
-  myHeaders.append("Authorization", "Bearer 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");
-
   const raw = JSON.stringify({
     "text_to_summarize": text_to_summarize
   });
